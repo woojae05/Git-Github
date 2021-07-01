@@ -1,2 +1,2 @@
 # Git + cat
-Git 공부하기
+Git clone 성공
