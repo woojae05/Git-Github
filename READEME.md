@@ -28,4 +28,4 @@ git init - .git 파일을 생성한다.
 - 브랜치(branch - 가지) - 표지판 개념
 git push orgin master - master 브랜치(기본적으로 만들어져 있음)에 커밋을 푸쉬해라 라는 뜻
 - git branch test - test라는 브랜치를 현재 시점에 만들어라
--git checkout test - test 브랜치로 이동해라
+- git checkout test - test 브랜치로 이동해라
