@@ -5,9 +5,15 @@
 
 git init - .git 파일을 생성한다.
 
+<<<<<<< HEAD
 ## 첫 번째 버전
 - 커밋(Commit) - 하나의 버전 (git commit -m "설명")
 - 애드(Add) - 커밋을 으로 만들고 싶은 파일을 선택 (git add .)
+=======
+# 첫 번째 버전
+커밋(Commit) - 하나의 버전 (git commit -m "설명")
+애드(Add) - 커밋을 으로 만들고 싶은 파일을 선택 (git add .)
+>>>>>>> parent of abce7ad (서식자 추가)
 
 ## 만든 버전 GitHub에 올리기
 - git remote add origin https://github.com/아이디/이름.git
@@ -15,27 +21,27 @@ git init - .git 파일을 생성한다.
 - git push origin master
 로컬 저장소에서 원격 저장소로 커밋 푸쉬
 
+<<<<<<< HEAD
 ## 다른 사람이 만든 저장소 불러오기
-- 클론(Clone) - 원격 저장소의 코드를 내 컴퓨터로 받아 온다. (git clone https://github.com/아이디/이름.git)
-- 풀(Pull) - 원격 저장소 데이터을 가져온다. (git pull origin master)
-
+- 클론(clone) - 원격 저장소의 코드를 내 컴퓨터로 받아 온다. (git clone https://github.com/아이디/이름.git)
+- 풀(pull) - 원격 저장소 데이터을 가져온다. (git pull origin master)
+=======
+# 다른 사람이 만든 저장소 불러오기
+클론(clone) - 원격 저장소의 코드를 내 컴퓨터로 받아 온다. (git clone https://github.com/아이디/이름.git)
+풀(pull) - 원격 저장소 데이터을 가져온다. (git pull origin master)
+>>>>>>> parent of abce7ad (서식자 추가)
 
 ## GitHub에 버전 올리는 순서 
-1. 커밋(Commit)하고 싶은 파일 선택해서 애드(Add)하기
-2. 커밋(Commit)하기
-3. GitHub에 커밋(Commit) 푸쉬(Push)하기
+1. 커밋(commit)하고 싶은 파일 선택해서 애드(add)하기
+2. 커밋(commit)하기
+3. GitHub에 커밋(commit) 푸쉬(push)하기
 
 ## 평행세계 나누기
-- 브랜치(Branch - 가지) - 표지판 개념
+- 브랜치(branch - 가지) - 표지판 개념
 - git push orgin master - master 브랜치(기본적으로 만들어져 있음)에 커밋을 푸쉬해라 라는 뜻
 - git branch test - test라는 브랜치를 현재 시점에 만들어라
 - git checkout test - test 브랜치로 이동해라
 
 ## 두 버전 합치기
-- 머지(Merge) - 브랜치를 병합
+- 머지(merge) - 브랜치를 병합
 - git merge branch_name - 헤드와 branch_name을 병합
-
-## 병합하다 충돌
-- 컴플릭트(Conflict) -머지 할 때 두 버전이 같은 곳을 수정
-수동으로 해결해야 함
-
